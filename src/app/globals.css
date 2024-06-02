@@ -2,28 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer components {
+  .btn-primary {
+    @apply bg-tan-two rounded-full
   }
 }
 
+:root {
+  --green-one: #103c00;
+  --green-two: #35711f;
+  --green-three: #60a543;
+  --green-four: #e6efc5;
+
+  --tan-one: #4f463c;
+  --tan-two: #e7cbaf;
+
+  --grey-one: #333333;
+  --grey-two: #808080;
+  --grey-three: #f2f2f2;
+}
+
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--green-one);
+  background: rgb(255,255,255);
+}
+
+.nav {
+  font-size: 14px;
+  max-width: 1000px;
+}
+.nav > a {
+  padding: 0px 50px 0px 50px;
 }
 
 @layer utilities {
