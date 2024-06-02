@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project is a SPA (single page app) take-home test for Sapa Investments, using Next.ja, Tailwind CSS, and Typescript.
 
-## Getting Started
+To see the site:
+1. Download the repository
+2. Run the development server via `npm run dev`
+3. Connect to [http://localhost:3000](http://localhost:3000)
 
-First, run the development server:
+## Notes
+- Several image assets provided contained extraneous white-space, making them difficult to position.  I cropped them using Adobe Photoshop.
+- Due to time constraints with my current work situation, I was unable to fully optimize for mobile.  The site is mostly responsive from desktop-tablet.
+- All potential links in the site are non-functional - because of the single page nature of the project, I hope this is fine for demonstration purposes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Reflections
+This was my first-ever exposure to Next.js and Tailwind.  As such, I tried to familiarize myself with the workflow as quickly as possible.  After completion, there are several areas I think I could improve on:
+- Better use of Tailwind components.  There are a lot of repeating styles throughout the site and I could have saved time by abstracting them out.
+- Use of React components.  My experience with React is also limited so the site is mostly hard-coded.  Re-using html templates would drastically simplify and clean up the `page.tsx` file.
+- Proper font imports.  Next.js has a unique way of accessing local static font files and I'm not sure I optimized that correctly.
+- Asset congregation.  I was a bit confused on how to correctly reference images.  For background images applied to divs, Tailwind seems to require assets within the `src/assets` folder.  For HTML img tags, Next.js seems to require the `public` folder.  I separated them accordingly but I'm sure I'm missing something here.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thanks for giving me this opportunity, I hope you'll consider me for the position!
+-Carson
