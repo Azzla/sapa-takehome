@@ -1,4 +1,4 @@
-This project is a SPA (single page app) take-home test for Sapa Investments, using Next.ja, Tailwind CSS, and Typescript.
+This project is a SPA (single page app) take-home test for Sapa Investments, using Next.js, Tailwind CSS, and Typescript.
 
 To see the site:
 1. Download the repository
