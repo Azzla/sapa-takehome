@@ -12,7 +12,7 @@ const proxima_nova = localFont({
     {
       path: 'fonts/Proxima-Nova-Semibold.otf',
       weight: '500',
-      style: 'bold',
+      style: 'semibold',
     },
     {
       path: 'fonts/Proxima-Nova-Bold.otf',
@@ -21,8 +21,8 @@ const proxima_nova = localFont({
     },
     {
       path: 'fonts/Proxima-Nova-Extrabold.otf',
-      weight: '700',
-      style: 'bold',
+      weight: '800',
+      style: 'extrabold',
     },
   ],
 })

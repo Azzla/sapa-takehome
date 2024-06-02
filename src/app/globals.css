@@ -4,7 +4,7 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-tan-two rounded-full
+    @apply bg-tan-two text-green-one font-medium rounded-full py-3 px-6
   }
 }
 
@@ -32,8 +32,9 @@ body {
   font-size: 14px;
   max-width: 1000px;
 }
-.nav > a {
-  padding: 0px 50px 0px 50px;
+
+hr {
+  border-top: 5px solid var(--green-one);
 }
 
 @layer utilities {

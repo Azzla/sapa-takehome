@@ -16,17 +16,18 @@ const config: Config = {
         'tan-two': '#e7cbaf',
         'grey-one': '#333333',
         'grey-two': '#808080',
-        'grey-three': '#f2f2f2'
-    },
-    maxWidth: {
-      'half': '50%',
+        'grey-three': '#f2f2f2',
+        'white': '#ffffff'
     },
     extend: {
       backgroundImage: {
         "header-image": "url('./assets/TopHeaderImage.png')",
         "header-image-2x": "url('./assets/TopHeaderImage@2x.png')",
-        "banner-ad": "url('./assets/MockBannerAd.png')",
-        "banner-ad-2x": "url('./assets/MockBannerAd@2x.png')",
+        "review-banner": "url('./assets/Review Banner.png')",
+        "review-banner-2x": "url('./assets/Review Banner@2x.png')",
+      },
+      maxWidth: {
+        'half': '50%',
       },
     },
   },
