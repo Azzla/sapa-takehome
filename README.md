@@ -5,9 +5,13 @@ To see the site:
 2. Run the development server via `npm run dev`
 3. Connect to [http://localhost:3000](http://localhost:3000)
 
+## UPDATE
+- Added mobile-complient style changes down to a minimum width of 375px, which I believe is the standard.
+- Fixed some miscellaneous bugs like spelling, padding errors, and inflexible width declarations.
+
 ## Notes
 - Several image assets provided contained extraneous white-space, making them difficult to position.  I cropped them using Adobe Photoshop.
-- Due to time constraints with my current work situation, I was unable to fully optimize for mobile.  The site is mostly responsive from desktop-tablet.
+- ~~Due to time constraints with my current work situation, I was unable to fully optimize for mobile.  The site is mostly responsive from desktop-tablet.~~
 - All potential links in the site are non-functional - because of the single page nature of the project, I hope this is fine for demonstration purposes.
 
 ## Reflections
