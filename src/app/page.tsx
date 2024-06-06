@@ -76,7 +76,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row w-full space-x-8 mt-16">
             <img className="mb-auto max-w-[80px] self-center" src="/Number2.png"></img>
             <p className="text-lg mt-6">Check in with your QMP</p>
-            <ol className="list-decimal mt-6">
+            <ol className="list-decimal mt-6 pl-6">
               <li>QMP Registration</li>
               <li>Medical Evaluation/Consultation</li>
               <li>Payment</li>
