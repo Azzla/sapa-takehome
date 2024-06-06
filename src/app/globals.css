@@ -28,11 +28,6 @@ body {
   background: rgb(255,255,255);
 }
 
-.nav {
-  font-size: 14px;
-  max-width: 1000px;
-}
-
 hr {
   border-top: 5px solid var(--green-one);
 }
